@@ -7,6 +7,13 @@
  * @author khinthantsin
  */
 public class SwitchExample {
+	/**
+	 * <h2> Days Class</h2>
+	 * <p>
+	 * Process for Displaying Days
+	 * </p>
+	 * @author khinthantsin
+	 */
 	enum Days {
 	    MON,
 	    TUE,
