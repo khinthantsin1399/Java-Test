@@ -1,4 +1,4 @@
-package ojt;
+package ojtJava;
 
 /**
  * <h2> SwitchExample Class</h2>

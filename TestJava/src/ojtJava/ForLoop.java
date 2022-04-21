@@ -1,4 +1,4 @@
-package ojt;
+package ojtJava;
 
 /**
  * <h2>ForLoop Class</h2>

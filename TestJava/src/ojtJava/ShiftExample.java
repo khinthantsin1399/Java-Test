@@ -1,4 +1,4 @@
-package ojt;
+package ojtJava;
 
 public class ShiftExample {
 
