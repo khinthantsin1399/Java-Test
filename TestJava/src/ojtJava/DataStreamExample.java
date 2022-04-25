@@ -24,7 +24,7 @@ public class DataStreamExample {
      */
     public static void main(String args[]) throws IOException {
         try {
-            FileInputStream fin = new FileInputStream("testot.txt");
+            FileInputStream fin = new FileInputStream("testout.txt");
             // Reading characters from FileInputStream and write them
             int i = 0;
             while ((i = fin.read()) != -1) {
