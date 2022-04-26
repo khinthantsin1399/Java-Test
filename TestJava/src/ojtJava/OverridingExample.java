@@ -1,5 +1,6 @@
 package ojtJava;
 
+//parent Adder class
 class Adder {
     /**
      * <h2>calculate</h2>
@@ -14,15 +15,16 @@ class Adder {
         int sum = num1 + num2;
         System.out.println("Sum : " + sum);
     }
-
 }
 
+//derived Multiplication class from parent Adder class
 class Multiplication extends Adder {
     /**
      * <h2>calculate</h2>
      * <p>
      * Overriding method
      * </p>
+     * *
      * 
      * @param num1
      * @param num2
@@ -32,7 +34,6 @@ class Multiplication extends Adder {
         System.out.println("Product : " + num1 * num2);
         super.calculate(5, 3);
     }
-
 }
 
 /**
@@ -56,7 +57,5 @@ public class OverridingExample {
     public static void main(String[] args) {
         Multiplication multiply = new Multiplication();
         multiply.calculate(4, 5);
-
     }
-
 }

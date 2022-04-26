@@ -11,7 +11,6 @@ import java.io.ByteArrayInputStream;
  * @author khinthantsin
  */
 public class ByteArrayInput2 {
-
     /**
      * <h2>main</h2>
      * <p>
@@ -31,5 +30,4 @@ public class ByteArrayInput2 {
             System.out.println("ASCII value of Character is:" + k + "; Special character is: " + ch);
         }
     }
-
 }

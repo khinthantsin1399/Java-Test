@@ -25,16 +25,6 @@ public class StudentInfo {
     int id;
 
     /**
-     * <h2>Constructor for Student</h2>
-     * <p>
-     * Constructor for Student
-     * </p>
-     * 
-     * @param name
-     * @param id
-     */
-
-    /**
      * <h2>display</h2>
      * <p>
      * Method for displaying student information

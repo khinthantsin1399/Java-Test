@@ -8,14 +8,7 @@ package ojtJava;
  * 
  * @author khinthantsin
  */
-/**
- * <h2>Pet Class</h2>
- * <p>
- * Process for Displaying Pet
- * </p>
- * 
- * @author khinthantsin
- */
+
 public class Pet {
 
     /**
