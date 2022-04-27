@@ -21,15 +21,16 @@ public class ModifiedTutorial3b {
      * @param args
      */
     public static void main(String[] args) {
-        int i, j, element, count = 0;
+        int element;
+        int count = 0;
         Scanner input = new Scanner(System.in);
         int[] numbers = new int[] { 25, 14, 15, 56, 36 };
         int size = numbers.length;
         System.out.print("Enter the number to Remove: ");
         element = input.nextInt();
-        for (i = 0; i < size; i++) {
+        for (int i = 0; i < size; i++) {
             if (element == numbers[i]) {
-                for (j = i; j < (size - 1); j++)
+                for (int j = i; j < (size - 1); j++)
                     numbers[j] = numbers[j + 1];
                 size--;
                 i--;
@@ -41,7 +42,7 @@ public class ModifiedTutorial3b {
             System.out.println("\nThe array is: " + Arrays.toString(numbers));
         } else {
             System.out.println("\nThe modified array is: ");
-            for (i = 0; i < size; i++)
+            for (int i = 0; i < size; i++)
                 System.out.print(numbers[i] + " ");
         }
     }
